@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Ping Pong</title>
+        <title>AI Pong</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -17,9 +17,14 @@
     </head>
     <body background="background1.jpg">
         <center>
-            <div class="btn btn-primary heading">
-                <h3>AI MARIO GAME</h3>
-                <button class="btn btn-info" data-toggle="modal" data-target="#myModal">Instructions</button>
+            <div class="btn btn-warning heading">
+                <h3>AI PONG</h3>
+                <button class="btn btn-danger" data-toggle="modal" data-target="#myModal">Instructions</button>
+            </div>
+            <br><br>
+            <div class="btn btn-warning">
+                <button type="button" class="bt btn-danger" id="start">START</button>
+                <h3>AI PONG</h3>
             </div>
 
             <div id="myModal" class="modal fade">
@@ -41,5 +46,11 @@
                 </div>
               </div>
         </center>
+
+        <div class="btn btn-warning copy_right_footer">
+            Developed By whitehatJr Team
+          </div>
+          <script src="main.js"></script>
+
     </body>
 </html>

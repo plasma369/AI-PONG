@@ -1,4 +1,35 @@
 .heading
 {
     width: 100%;
+    text-align: left;
+}
+
+.heading h3
+{
+    display: inline;
+}
+
+.heading button
+{
+    float: right;
+    border: 1px solid white;
+}
+
+#start
+{
+    border: 1px solid white;
+}
+
+.start
+{
+    width: 75%;
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
 }
