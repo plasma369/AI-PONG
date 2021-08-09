@@ -1,4 +1,3 @@
-
 /*created by prashant shukla */
 
 var paddle2 =10,paddle1=10;
@@ -22,13 +21,13 @@ var ball = {
 }
 
 function setup(){
-  var canvas =  createCanvas(700,600);
+  canvas = createCanvas(700,600);
 }
-
 
 function draw(){
 
- background(0); 
+ background(0);
+ image(video, 0, 0, 700, 600);
 
  fill("black");
  stroke("black");
